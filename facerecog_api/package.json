@@ -1,20 +1,15 @@
 {
-  "homepage": "http://N-E-K-0.github.io/Face_detection",
   "name": "facerecog_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "nodemon server.js",
-    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^2.2.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -22,7 +17,7 @@
     "clarifai": "^2.9.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "knex": "^0.20.10",
+    "knex": "^0.20.15",
     "pg": "^7.18.2"
   }
 }
